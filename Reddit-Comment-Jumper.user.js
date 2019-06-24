@@ -35,7 +35,7 @@ const init = () => {
 
         // Check if the RES 'show link' feature is active and visible
         // since it will overlap comment content at the top of the window
-        let offset = document.querySelector(".res-show-link.hide") ? [30, -10] : [60, -40];
+        let offset = document.querySelector(".res-show-link.hide") ? [60, -40] : [30, -10];
 
         // Loop through the comments until we find the first one
         // sufficiently within the viewport, then scroll to it
